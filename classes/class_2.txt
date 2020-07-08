@@ -1,0 +1,13 @@
+Class Table
+
+Attributes:
+    isOccupied (boolean)
+    isClean (boolean)
+    numberOfOccupants (integer)
+    serverAssigned (string)
+    
+Methods:
+    seatGuests (changes isOccupied attribute to true)
+    cleanTable (changes isClean attribute to true)
+    addGuest (increases numberOfOccupants attribute by 1)
+    assignNewServer (changes serverAssigned attribute)
