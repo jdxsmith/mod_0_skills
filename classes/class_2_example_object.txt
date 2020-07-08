@@ -1,0 +1,13 @@
+Class Table7
+
+Attributes:
+    isOccupied = false (boolean)
+    isClean = false (boolean)
+    numberOfOccupants = 0 (integer)
+    serverAssigned = Rob (string)
+    
+Methods:
+    seatGuests (isOccupied = true)
+    cleanTable (isClean = true)
+    addGuest (numberOfOccupants = 1)
+    assignNewServer (serverAssigned = Suzie)
