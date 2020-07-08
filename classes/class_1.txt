@@ -1,0 +1,13 @@
+Class Grill
+
+Attributes:
+    isClean (boolean)
+    isOn (boolean)
+    surfaceTemperature (integer)
+    currentFood (string)
+
+Methods:
+    cleanGrill (changes isClean attribute to true)
+    grillOff (changes isOn attribute to false)
+    raiseSurfaceTemperature (raises surfaceTemperature by 5)
+    addBurgers (sets currentFood to 'burgers')
