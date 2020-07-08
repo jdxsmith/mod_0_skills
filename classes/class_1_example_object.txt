@@ -1,0 +1,14 @@
+Class MainGrill
+
+Attributes:
+    isClean = false (boolean)
+    isOn = true (boolean)
+    surfaceTemperature = 370 (integer)
+    currentFood = 'None' (string)
+    
+Methods:
+    cleanGrill (isClean = true)
+    grillOff (isOn = false)
+    raiseSurfaceTemperature (surfaceTemperature = 375)
+    addBurgers (currentFood = 'burgers')
+    
